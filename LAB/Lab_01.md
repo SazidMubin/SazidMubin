@@ -23,10 +23,17 @@
 
 int main()
 {
-   
-   printf(“hello world!”);
+   int num_1,num_2,result;
+  printf("Input first number\n");
+  scanf("%d",&num_1);
+  printf("Input second number\n");
+  scanf("%d",&num_2);
+   result= num_1+num_2;
+   printf("Sum of given numbers is %d", result);
+   return 0;
+  
 
-    return 0;
+    
 }
 ```
 
